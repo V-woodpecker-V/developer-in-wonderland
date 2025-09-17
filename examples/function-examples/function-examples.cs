@@ -2,13 +2,13 @@ using System;
 
 public class FunctionExamples
 {
-    public static int Add(int a, int b)
+    public static int AddCoffees(int morningCup, int afternoonCup)
     {
-        return a + b;
+        return morningCup + afternoonCup;
     }
     
     public static void Main()
     {
-        Console.WriteLine(Add(5, 3));
+        Console.WriteLine(AddCoffees(5, 3));
     }
 }

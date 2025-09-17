@@ -1,5 +1,5 @@
-function add(a, b) {
-    return a + b;
+function addCoffees(morningCup, afternoonCup) {
+    return morningCup + afternoonCup;
 }
 
-console.log(add(5, 3));
+console.log(addCoffees(5, 3));
